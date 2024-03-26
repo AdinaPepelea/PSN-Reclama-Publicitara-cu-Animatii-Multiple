@@ -1,0 +1,18 @@
+EN numarator_alegere NULL "C:/Users/Adina/Desktop/Proiect PSN/Proiect/numarator_alegere.vhd" sub00/vhpl10 1653237806
+AR divizor behavioral "C:/Users/Adina/Desktop/Proiect PSN/Proiect/Divizor.vhd" sub00/vhpl05 1653237805
+AR reg_3 reg_3x "C:/Users/Adina/Desktop/Proiect PSN/Proiect/reg_litera_cu_litera.vhd" sub00/vhpl07 1653237813
+AR reg_2 reg_2x "C:/Users/Adina/Desktop/Proiect PSN/Proiect/reg_2.vhd" sub00/vhpl01 1653237811
+EN divizor NULL "C:/Users/Adina/Desktop/Proiect PSN/Proiect/Divizor.vhd" sub00/vhpl04 1653237804
+AR mux_iesire behavioral "C:/Users/Adina/Desktop/Proiect PSN/Proiect/mux_iesire.vhd" sub00/vhpl17 1653237817
+EN top NULL "C:/Users/Adina/Desktop/Proiect PSN/Proiect/top.vhd" sub00/vhpl12 1653237818
+AR reg_1 reg_1x "C:/Users/Adina/Desktop/Proiect PSN/Proiect/Reg_Afisare.vhd" sub00/vhpl03 1653237809
+EN reg_1 NULL "C:/Users/Adina/Desktop/Proiect PSN/Proiect/Reg_Afisare.vhd" sub00/vhpl02 1653237808
+EN reg_2 NULL "C:/Users/Adina/Desktop/Proiect PSN/Proiect/reg_2.vhd" sub00/vhpl00 1653237810
+EN reg_3 NULL "C:/Users/Adina/Desktop/Proiect PSN/Proiect/reg_litera_cu_litera.vhd" sub00/vhpl06 1653237812
+EN reg_4 NULL "C:/Users/Adina/Desktop/Proiect PSN/Proiect/reg_stanga_dreapta.vhd" sub00/vhpl08 1653237814
+AR decizional behavioral C:/Users/Adina/Desktop/ISE/Proiect/decizional.vhd sub00/vhpl15 1653144648
+AR numarator_alegere behavioral "C:/Users/Adina/Desktop/Proiect PSN/Proiect/numarator_alegere.vhd" sub00/vhpl11 1653237807
+AR reg_4 reg_4x "C:/Users/Adina/Desktop/Proiect PSN/Proiect/reg_stanga_dreapta.vhd" sub00/vhpl09 1653237815
+EN mux_iesire NULL "C:/Users/Adina/Desktop/Proiect PSN/Proiect/mux_iesire.vhd" sub00/vhpl16 1653237816
+AR top behavioral "C:/Users/Adina/Desktop/Proiect PSN/Proiect/top.vhd" sub00/vhpl13 1653237819
+EN decizional NULL C:/Users/Adina/Desktop/ISE/Proiect/decizional.vhd sub00/vhpl14 1653144647

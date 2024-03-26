@@ -1,0 +1,8 @@
+vhdl work "reg_stanga_dreapta.vhd"
+vhdl work "reg_litera_cu_litera.vhd"
+vhdl work "Reg_Afisare.vhd"
+vhdl work "reg_2.vhd"
+vhdl work "numarator_alegere.vhd"
+vhdl work "mux_iesire.vhd"
+vhdl work "Divizor.vhd"
+vhdl work "top.vhd"

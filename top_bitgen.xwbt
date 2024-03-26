@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Adina\Desktop\Proiect PSN\Proiect\top.ncd
+OUTFILE=C:\Users\Adina\Desktop\Proiect PSN\Proiect\top.bit
+FAMILY=Artix7
+PART=xc7a100t-3csg324
+WORKINGDIR=C:\Users\Adina\Desktop\Proiect PSN\Proiect
+LICENSE=WebPack
+USER_INFO=212475372_0_0_618

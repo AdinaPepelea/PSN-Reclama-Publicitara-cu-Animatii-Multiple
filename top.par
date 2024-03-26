@@ -1,0 +1,387 @@
+Release 14.7 par P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+DESKTOP-7BNQ9HO::  Tue May 31 12:54:27 2022
+
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+
+
+Constraints file: top.pcf.
+Loading device for application Rf_Device from file '7a100t.nph' in environment C:\Xilinx\14.7\ISE_DS\ISE\.
+   "top" is an NCD, version 3.2, device xc7a100t, package csg324, speed -3
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 0.950 Volts. (default - Range: 0.950 to 1.050 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.10 2013-10-13".
+
+
+
+Device Utilization Summary:
+
+Slice Logic Utilization:
+  Number of Slice Registers:                   244 out of 126,800    1%
+    Number used as Flip Flops:                 175
+    Number used as Latches:                     63
+    Number used as Latch-thrus:                  0
+    Number used as AND/OR logics:                6
+  Number of Slice LUTs:                        266 out of  63,400    1%
+    Number used as logic:                      265 out of  63,400    1%
+      Number using O6 output only:             164
+      Number using O5 output only:              29
+      Number using O5 and O6:                   72
+      Number used as ROM:                        0
+    Number used as Memory:                       0 out of  19,000    0%
+    Number used exclusively as route-thrus:      1
+      Number with same-slice register load:      0
+      Number with same-slice carry load:         1
+      Number with other load:                    0
+
+Slice Logic Distribution:
+  Number of occupied Slices:                   213 out of  15,850    1%
+  Number of LUT Flip Flop pairs used:          398
+    Number with an unused Flip Flop:           156 out of     398   39%
+    Number with an unused LUT:                 132 out of     398   33%
+    Number of fully used LUT-FF pairs:         110 out of     398   27%
+    Number of slice register sites lost
+      to control set restrictions:               0 out of 126,800    0%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+  OVERMAPPING of BRAM resources should be ignored if the design is
+  over-mapped for a non-BRAM resource or if placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                        14 out of     210    6%
+    Number of LOCed IOBs:                       14 out of      14  100%
+
+Specific Feature Utilization:
+  Number of RAMB36E1/FIFO36E1s:                  0 out of     135    0%
+  Number of RAMB18E1/FIFO18E1s:                  0 out of     270    0%
+  Number of BUFG/BUFGCTRLs:                      2 out of      32    6%
+    Number used as BUFGs:                        2
+    Number used as BUFGCTRLs:                    0
+  Number of IDELAYE2/IDELAYE2_FINEDELAYs:        0 out of     300    0%
+  Number of ILOGICE2/ILOGICE3/ISERDESE2s:        0 out of     300    0%
+  Number of ODELAYE2/ODELAYE2_FINEDELAYs:        0
+  Number of OLOGICE2/OLOGICE3/OSERDESE2s:        0 out of     300    0%
+  Number of PHASER_IN/PHASER_IN_PHYs:            0 out of      24    0%
+  Number of PHASER_OUT/PHASER_OUT_PHYs:          0 out of      24    0%
+  Number of BSCANs:                              0 out of       4    0%
+  Number of BUFHCEs:                             0 out of      96    0%
+  Number of BUFRs:                               0 out of      24    0%
+  Number of CAPTUREs:                            0 out of       1    0%
+  Number of DNA_PORTs:                           0 out of       1    0%
+  Number of DSP48E1s:                            0 out of     240    0%
+  Number of EFUSE_USRs:                          0 out of       1    0%
+  Number of FRAME_ECCs:                          0 out of       1    0%
+  Number of IBUFDS_GTE2s:                        0 out of       4    0%
+  Number of ICAPs:                               0 out of       2    0%
+  Number of IDELAYCTRLs:                         0 out of       6    0%
+  Number of IN_FIFOs:                            0 out of      24    0%
+  Number of MMCME2_ADVs:                         0 out of       6    0%
+  Number of OUT_FIFOs:                           0 out of      24    0%
+  Number of PCIE_2_1s:                           0 out of       1    0%
+  Number of PHASER_REFs:                         0 out of       6    0%
+  Number of PHY_CONTROLs:                        0 out of       6    0%
+  Number of PLLE2_ADVs:                          0 out of       6    0%
+  Number of STARTUPs:                            0 out of       1    0%
+  Number of XADCs:                               0 out of       1    0%
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 9 secs 
+Finished initial Timing Analysis.  REAL time: 9 secs 
+
+Starting Router
+
+
+Phase  1  : 1883 unrouted;      REAL time: 10 secs 
+
+Phase  2  : 1570 unrouted;      REAL time: 10 secs 
+
+Phase  3  : 557 unrouted;      REAL time: 10 secs 
+
+Phase  4  : 557 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 13 secs 
+
+Updating file: top.ncd with current fully routed design.
+
+Phase  5  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 13 secs 
+
+Phase  6  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 13 secs 
+
+Phase  7  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 13 secs 
+
+Phase  8  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 13 secs 
+
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 13 secs 
+Total REAL time to Router completion: 13 secs 
+Total CPU time to Router completion: 13 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|           clk_BUFGP |BUFGCTRL_X0Y31| No   |    9 |  0.057     |  1.303      |
++---------------------+--------------+------+------+------------+-------------+
+|  div/clkdiv_24_BUFG | BUFGCTRL_X0Y0| No   |  129 |  0.079     |  1.309      |
++---------------------+--------------+------+------+------------+-------------+
+|reg2/GND_9_o_i[28]_A |              |      |      |            |             |
+|              ND_5_o |         Local|      |    2 |  0.000     |  0.661      |
++---------------------+--------------+------+------+------------+-------------+
+|reg2/GND_9_o_i[29]_A |              |      |      |            |             |
+|              ND_3_o |         Local|      |    2 |  0.000     |  0.481      |
++---------------------+--------------+------+------+------------+-------------+
+|      div/clkdiv<29> |         Local|      |    2 |  0.000     |  0.720      |
++---------------------+--------------+------+------+------------+-------------+
+|reg3/GND_10_o_i[29]_ |              |      |      |            |             |
+|            AND_72_o |         Local|      |    2 |  0.000     |  0.482      |
++---------------------+--------------+------+------+------------+-------------+
+|      div/clkdiv<15> |         Local|      |    5 |  0.321     |  0.913      |
++---------------------+--------------+------+------+------------+-------------+
+|reg3/GND_10_o_i[28]_ |              |      |      |            |             |
+|            AND_74_o |         Local|      |    2 |  0.000     |  0.542      |
++---------------------+--------------+------+------+------------+-------------+
+|reg2/GND_9_o_i[1]_AN |              |      |      |            |             |
+|              D_59_o |         Local|      |    2 |  0.000     |  0.688      |
++---------------------+--------------+------+------+------------+-------------+
+|reg2/GND_9_o_i[23]_A |              |      |      |            |             |
+|             ND_15_o |         Local|      |    2 |  0.000     |  0.580      |
++---------------------+--------------+------+------+------------+-------------+
+|reg3/GND_10_o_i[1]_A |              |      |      |            |             |
+|            ND_128_o |         Local|      |    2 |  0.000     |  0.613      |
++---------------------+--------------+------+------+------------+-------------+
+|reg3/GND_10_o_i[30]_ |              |      |      |            |             |
+|            AND_70_o |         Local|      |    2 |  0.000     |  0.488      |
++---------------------+--------------+------+------+------------+-------------+
+|reg3/GND_10_o_i[31]_ |              |      |      |            |             |
+|            AND_68_o |         Local|      |    2 |  0.000     |  0.461      |
++---------------------+--------------+------+------+------------+-------------+
+|reg2/GND_9_o_i[25]_A |              |      |      |            |             |
+|             ND_11_o |         Local|      |    2 |  0.000     |  0.265      |
++---------------------+--------------+------+------+------------+-------------+
+|reg3/GND_10_o_i[18]_ |              |      |      |            |             |
+|            AND_94_o |         Local|      |    2 |  0.000     |  0.479      |
++---------------------+--------------+------+------+------------+-------------+
+|reg3/GND_10_o_i[8]_A |              |      |      |            |             |
+|            ND_114_o |         Local|      |    2 |  0.000     |  0.428      |
++---------------------+--------------+------+------+------------+-------------+
+|reg2/GND_9_o_i[16]_A |              |      |      |            |             |
+|             ND_29_o |         Local|      |    2 |  0.000     |  0.534      |
++---------------------+--------------+------+------+------------+-------------+
+|reg2/GND_9_o_i[10]_A |              |      |      |            |             |
+|             ND_41_o |         Local|      |    2 |  0.000     |  0.376      |
++---------------------+--------------+------+------+------------+-------------+
+|reg3/GND_10_o_i[14]_ |              |      |      |            |             |
+|           AND_102_o |         Local|      |    2 |  0.000     |  0.368      |
++---------------------+--------------+------+------+------------+-------------+
+|reg3/GND_10_o_i[4]_A |              |      |      |            |             |
+|            ND_122_o |         Local|      |    2 |  0.000     |  0.697      |
++---------------------+--------------+------+------+------------+-------------+
+|reg3/GND_10_o_i[6]_A |              |      |      |            |             |
+|            ND_118_o |         Local|      |    2 |  0.000     |  0.379      |
++---------------------+--------------+------+------+------------+-------------+
+|reg2/GND_9_o_i[21]_A |              |      |      |            |             |
+|             ND_19_o |         Local|      |    2 |  0.000     |  0.385      |
++---------------------+--------------+------+------+------------+-------------+
+|reg2/GND_9_o_i[3]_AN |              |      |      |            |             |
+|              D_55_o |         Local|      |    2 |  0.000     |  0.246      |
++---------------------+--------------+------+------+------------+-------------+
+|reg2/GND_9_o_i[17]_A |              |      |      |            |             |
+|             ND_27_o |         Local|      |    2 |  0.000     |  0.348      |
++---------------------+--------------+------+------+------------+-------------+
+|reg3/GND_10_o_i[21]_ |              |      |      |            |             |
+|            AND_88_o |         Local|      |    2 |  0.000     |  0.341      |
++---------------------+--------------+------+------+------------+-------------+
+|reg3/GND_10_o_i[3]_A |              |      |      |            |             |
+|            ND_124_o |         Local|      |    2 |  0.000     |  0.472      |
++---------------------+--------------+------+------+------------+-------------+
+|reg2/GND_9_o_i[6]_AN |              |      |      |            |             |
+|              D_49_o |         Local|      |    2 |  0.000     |  0.471      |
++---------------------+--------------+------+------+------------+-------------+
+|reg3/GND_10_o_i[27]_ |              |      |      |            |             |
+|            AND_76_o |         Local|      |    2 |  0.000     |  0.474      |
++---------------------+--------------+------+------+------------+-------------+
+|reg3/GND_10_o_i[12]_ |              |      |      |            |             |
+|           AND_106_o |         Local|      |    2 |  0.000     |  0.385      |
++---------------------+--------------+------+------+------------+-------------+
+|reg2/GND_9_o_i[22]_A |              |      |      |            |             |
+|             ND_17_o |         Local|      |    2 |  0.000     |  0.346      |
++---------------------+--------------+------+------+------------+-------------+
+|reg3/GND_10_o_i[26]_ |              |      |      |            |             |
+|            AND_78_o |         Local|      |    2 |  0.000     |  0.474      |
++---------------------+--------------+------+------+------------+-------------+
+|reg3/GND_10_o_i[11]_ |              |      |      |            |             |
+|           AND_108_o |         Local|      |    2 |  0.000     |  0.385      |
++---------------------+--------------+------+------+------------+-------------+
+|reg2/GND_9_o_i[5]_AN |              |      |      |            |             |
+|              D_51_o |         Local|      |    2 |  0.000     |  0.338      |
++---------------------+--------------+------+------+------------+-------------+
+|reg3/GND_10_o_i[13]_ |              |      |      |            |             |
+|           AND_104_o |         Local|      |    2 |  0.000     |  0.265      |
++---------------------+--------------+------+------+------------+-------------+
+|reg3/GND_10_o_i[0]_A |              |      |      |            |             |
+|            ND_130_o |         Local|      |    2 |  0.000     |  0.456      |
++---------------------+--------------+------+------+------------+-------------+
+|reg2/GND_9_o_i[15]_A |              |      |      |            |             |
+|             ND_31_o |         Local|      |    2 |  0.000     |  0.266      |
++---------------------+--------------+------+------+------------+-------------+
+|reg3/GND_10_o_i[25]_ |              |      |      |            |             |
+|            AND_80_o |         Local|      |    2 |  0.000     |  0.354      |
++---------------------+--------------+------+------+------------+-------------+
+|reg2/GND_9_o_i[4]_AN |              |      |      |            |             |
+|              D_53_o |         Local|      |    2 |  0.000     |  0.359      |
++---------------------+--------------+------+------+------------+-------------+
+|reg2/GND_9_o_i[2]_AN |              |      |      |            |             |
+|              D_57_o |         Local|      |    2 |  0.000     |  0.428      |
++---------------------+--------------+------+------+------------+-------------+
+|reg2/GND_9_o_i[20]_A |              |      |      |            |             |
+|             ND_21_o |         Local|      |    2 |  0.000     |  0.390      |
++---------------------+--------------+------+------+------------+-------------+
+|reg3/GND_10_o_i[24]_ |              |      |      |            |             |
+|            AND_82_o |         Local|      |    2 |  0.000     |  0.364      |
++---------------------+--------------+------+------+------------+-------------+
+|reg3/GND_10_o_i[5]_A |              |      |      |            |             |
+|            ND_120_o |         Local|      |    2 |  0.000     |  0.514      |
++---------------------+--------------+------+------+------------+-------------+
+|reg3/GND_10_o_i[19]_ |              |      |      |            |             |
+|            AND_92_o |         Local|      |    2 |  0.000     |  0.652      |
++---------------------+--------------+------+------+------------+-------------+
+|reg2/GND_9_o_i[24]_A |              |      |      |            |             |
+|             ND_13_o |         Local|      |    2 |  0.000     |  0.376      |
++---------------------+--------------+------+------+------------+-------------+
+|reg2/GND_9_o_i[27]_A |              |      |      |            |             |
+|              ND_7_o |         Local|      |    2 |  0.000     |  0.361      |
++---------------------+--------------+------+------+------------+-------------+
+|reg3/GND_10_o_i[2]_A |              |      |      |            |             |
+|            ND_126_o |         Local|      |    2 |  0.000     |  0.438      |
++---------------------+--------------+------+------+------------+-------------+
+|reg2/GND_9_o_i[0]_AN |              |      |      |            |             |
+|              D_61_o |         Local|      |    2 |  0.000     |  0.353      |
++---------------------+--------------+------+------+------------+-------------+
+|reg2/GND_9_o_i[19]_A |              |      |      |            |             |
+|             ND_23_o |         Local|      |    2 |  0.000     |  0.528      |
++---------------------+--------------+------+------+------------+-------------+
+|reg2/GND_9_o_i[11]_A |              |      |      |            |             |
+|             ND_39_o |         Local|      |    2 |  0.000     |  0.479      |
++---------------------+--------------+------+------+------------+-------------+
+|reg3/GND_10_o_i[15]_ |              |      |      |            |             |
+|           AND_100_o |         Local|      |    2 |  0.000     |  0.558      |
++---------------------+--------------+------+------+------------+-------------+
+|reg2/GND_9_o_i[9]_AN |              |      |      |            |             |
+|              D_43_o |         Local|      |    2 |  0.000     |  0.361      |
++---------------------+--------------+------+------+------------+-------------+
+|reg2/GND_9_o_i[12]_A |              |      |      |            |             |
+|             ND_37_o |         Local|      |    2 |  0.000     |  0.460      |
++---------------------+--------------+------+------+------------+-------------+
+|reg3/GND_10_o_i[22]_ |              |      |      |            |             |
+|            AND_86_o |         Local|      |    2 |  0.000     |  0.353      |
++---------------------+--------------+------+------+------------+-------------+
+|reg2/GND_9_o_i[8]_AN |              |      |      |            |             |
+|              D_45_o |         Local|      |    2 |  0.000     |  0.385      |
++---------------------+--------------+------+------+------------+-------------+
+|reg2/GND_9_o_i[26]_A |              |      |      |            |             |
+|              ND_9_o |         Local|      |    2 |  0.000     |  0.390      |
++---------------------+--------------+------+------+------------+-------------+
+|reg2/GND_9_o_i[14]_A |              |      |      |            |             |
+|             ND_33_o |         Local|      |    2 |  0.000     |  0.376      |
++---------------------+--------------+------+------+------------+-------------+
+|reg3/GND_10_o_i[17]_ |              |      |      |            |             |
+|            AND_96_o |         Local|      |    2 |  0.000     |  0.366      |
++---------------------+--------------+------+------+------------+-------------+
+|reg2/GND_9_o_i[30]_A |              |      |      |            |             |
+|              ND_1_o |         Local|      |    2 |  0.000     |  0.437      |
++---------------------+--------------+------+------+------------+-------------+
+|reg3/GND_10_o_i[9]_A |              |      |      |            |             |
+|            ND_112_o |         Local|      |    2 |  0.000     |  0.462      |
++---------------------+--------------+------+------+------------+-------------+
+|reg2/GND_9_o_i[7]_AN |              |      |      |            |             |
+|              D_47_o |         Local|      |    2 |  0.000     |  0.512      |
++---------------------+--------------+------+------+------------+-------------+
+|reg3/GND_10_o_i[16]_ |              |      |      |            |             |
+|            AND_98_o |         Local|      |    2 |  0.000     |  0.482      |
++---------------------+--------------+------+------+------------+-------------+
+|reg2/GND_9_o_i[13]_A |              |      |      |            |             |
+|             ND_35_o |         Local|      |    2 |  0.000     |  0.240      |
++---------------------+--------------+------+------+------------+-------------+
+|reg3/GND_10_o_i[7]_A |              |      |      |            |             |
+|            ND_116_o |         Local|      |    2 |  0.000     |  0.560      |
++---------------------+--------------+------+------+------------+-------------+
+|reg3/GND_10_o_i[10]_ |              |      |      |            |             |
+|           AND_110_o |         Local|      |    2 |  0.000     |  0.365      |
++---------------------+--------------+------+------+------------+-------------+
+|reg2/GND_9_o_i[18]_A |              |      |      |            |             |
+|             ND_25_o |         Local|      |    2 |  0.000     |  0.390      |
++---------------------+--------------+------+------+------------+-------------+
+|reg3/GND_10_o_i[23]_ |              |      |      |            |             |
+|            AND_84_o |         Local|      |    2 |  0.000     |  0.515      |
++---------------------+--------------+------+------+------------+-------------+
+|reg3/GND_10_o_i[20]_ |              |      |      |            |             |
+|            AND_90_o |         Local|      |    2 |  0.000     |  0.353      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+* The fanout is the number of component pins not the individual BEL loads,
+for example SLICE loads not FF loads.
+
+Timing Score: 0 (Setup: 0, Hold: 0, Component Switching Limit: 0)
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+  TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_ | SETUP       |     7.084ns|     2.916ns|       0|           0
+  pin" 100 MHz HIGH 50%                     | HOLD        |     0.301ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 13 secs 
+Total CPU time to PAR completion: 13 secs 
+
+Peak Memory Usage:  4850 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 0
+
+Writing design to file top.ncd
+
+
+
+PAR done!

@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Adina/Desktop/ISE/Proiect/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Adina/Desktop/ISE/Proiect/xst"
+elaborate
+-ifn decizional.prj
+-ifmt mixed
